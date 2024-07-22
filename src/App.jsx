@@ -6,7 +6,7 @@ import About from "./pages/About/About";
 const App = () => {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/demo">
         <Routes>
           <Route index element={<Home />} />
           <Route path="/about" element={<About />} />
