@@ -18,7 +18,7 @@ mongoose
 
 // varaibles
 const app = express();
-const PORT = process.env.PORT || 4000;
+const PORT = 3000;
 
 // middlewares
 app.use(express.urlencoded({ extended: true }));
